@@ -368,5 +368,3 @@ explore: ecomm_predict {
     sql_on: ${order_facts.order_id} = ${order_items.order_id} ;;
   }
 }
-
-explore: flights {}
