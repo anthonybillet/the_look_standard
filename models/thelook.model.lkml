@@ -10,8 +10,6 @@ datagroup: ecommerce_etl {
   max_cache_age: "24 hours"
 }
 
-explore: flights  {}
-
 persist_with: ecommerce_etl
 ############ Base Explores #############
 label: "Z) Sample Ecommerce Data"
