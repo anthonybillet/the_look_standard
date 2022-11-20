@@ -369,3 +369,4 @@ explore: ecomm_predict {
 }
 
 explore: flights {}
+explore: flights_by_day {}
