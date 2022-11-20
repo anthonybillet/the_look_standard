@@ -333,7 +333,6 @@ explore: ecomm_training_info {
 
 explore: kmeans_model5 {}
 
-
 explore: ecomm_predict {
   label: "(8) Cohort Analysis"
   fields: [ALL_FIELDS*,-centroid_id, -user_id]
@@ -369,3 +368,5 @@ explore: ecomm_predict {
     sql_on: ${order_facts.order_id} = ${order_items.order_id} ;;
   }
 }
+
+explore: flights {}
