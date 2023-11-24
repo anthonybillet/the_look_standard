@@ -357,13 +357,9 @@
       options:
         steps: 5
     y_axes: []
-    y_axis_max: ['50']
+    y_axis_max: []
     y_axis_labels: [Percent of Cohort still Active]
-    y_axis_value_format: "#\\%"
-    limit_displayed_rows_values:
-      show_hide: hide
-      first_last: first
-      num_rows: '1'
+    y_axis_value_format: "#%"
     colors: ["#64518A", "#8D7FB9", "#EA8A2F", "#F2B431", "#2DA5DE", "#57BEBE", "#7F7977",
       "#B2A898", "#494C52"]
     series_colors: {}
